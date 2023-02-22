@@ -1,0 +1,20 @@
+.btn-3d {
+    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 6px 0 #bb1542;
+}
+
+.btn-3d:active {
+    box-shadow: none;
+    transform: translateY(6px);
+
+}
